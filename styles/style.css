@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-primaria: "Outfit", sans-serif;;
+    --fonte-secundaria: "Young Serif", serif;;
+    --cor-background: hsl(330, 100%, 93%);
+    --cor-background-main: #ffffff;
+    --cor-letras-principal: black;
+    --cor-titulo-tempo: hsl(332, 51%, 32%);
+    --cor-background-tempo: hsl(330, 100%, 93%);
+    --cor-titulos-gerais: hsl(14, 45%, 36%);
+    --cor-calorias: hsl(14, 45%, 36%);
+    --cor-linhas: rgb(224, 224, 224);
+}
+
+body {
+    background-color: var(--cor-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-background-main);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 30rem;
+}
+

@@ -1,0 +1,17 @@
+.primeira-linha {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: var(--cor-linhas);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.segunda-linha {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: var(--cor-linhas);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

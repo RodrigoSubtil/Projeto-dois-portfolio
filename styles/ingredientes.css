@@ -1,0 +1,28 @@
+.segundo-h {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: var(--cor-titulos-gerais);
+    font-size: 20px;
+}
+
+.lista-ingredientes {
+    list-style: none;
+    padding-top: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.lista-ingredientes-itens::before {
+    content: '•'; 
+    color: var(--cor-letras-principal); 
+    font-size: 15px;
+    position: absolute;
+    left: 0.1rem;
+}
+
+.lista-ingredientes-itens {
+    font-family: var(--fonte-primaria);
+    font-size: 12px;
+    padding-bottom: 0.5rem;
+    position: relative; 
+    padding-left: 1rem;
+}

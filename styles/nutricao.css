@@ -1,0 +1,53 @@
+.quarto-h {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: var(--cor-titulos-gerais);
+    font-size: 20px;
+}
+
+.paragrafo-lista-nutricao {
+    font-family: var(--fonte-primaria);
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    line-height: 1.2rem;
+}
+
+.container-lista-nutricao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lista-nutricao {
+    list-style-type: none;
+}
+
+.lista-nutricao-itens {
+    font-family: var(--fonte-primaria);
+    font-size: 12px;
+    padding: 1rem;
+    position: relative;
+}
+
+/* linhas com cores diferentes */
+.lista-nutricao-itens:nth-child(1) {
+    border-bottom: 1.2px solid rgb(236, 236, 236);
+}
+
+.lista-nutricao-itens:nth-child(2) {
+    border-bottom: 0.8px solid rgb(236, 236, 236);
+}
+
+.lista-nutricao-itens:nth-child(3) {
+    border-bottom: 0.5px solid rgb(236, 236, 236);
+}
+
+/* Remove a borda do último item */
+.lista-nutricao-itens:last-child {
+    border-bottom: none;
+}
+
+.lista-nutricao-negrito {
+    color: var(--cor-titulos-gerais);
+    font-weight: 700;
+}
